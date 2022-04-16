@@ -2,3 +2,9 @@ app-quote-form, app-quote-form-details{
     display: flex;
     flex-direction:column;
 }
+
+.quotes{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
