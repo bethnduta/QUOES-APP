@@ -1,13 +1,14 @@
 .quote{
     display: flex;
+    margin: 4px 5px;
 }
 
-.fa.fa-thumbs-up i{
+.fa.fa-thumbs-up i a{
     font-size: 18px;
     color: green;
 }
 
-.fa.fa-thumbs-down i{
+.fa.fa-thumbs-down i a{
     font-size: 18px;
     color: red;
 }
@@ -15,4 +16,9 @@
 .card-text{
     font-size: 18px;
     font-weight: 600;
+}
+
+.card-body{
+    width: 50%;
+    height: 70px;
 }
