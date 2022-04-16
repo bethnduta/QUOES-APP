@@ -1,0 +1,18 @@
+.quote{
+    display: flex;
+}
+
+.fa.fa-thumbs-up i{
+    font-size: 18px;
+    color: green;
+}
+
+.fa.fa-thumbs-down i{
+    font-size: 18px;
+    color: red;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 600;
+}
