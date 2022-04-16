@@ -3,9 +3,12 @@
     margin: 4px 5px;
 }
 
-.fa.fa-thumbs-up i a{
+.quote, .fa.fa-thumbs-up i a{
     font-size: 18px;
     color: green;
+}
+.fa.fa-thumbs-up i{
+    margin-right: 20px;
 }
 
 .fa.fa-thumbs-down i a{
@@ -21,4 +24,11 @@
 .card-body{
     width: 50%;
     height: 70px;
+}
+
+.card-body, .text-center{
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
 }
