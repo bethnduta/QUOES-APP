@@ -5,20 +5,20 @@
         <div class="form-group">
   
             <label for="name">Author</label>
-            <input type="text" required class="form-control" id="name">
+            <input type="text" required class="form-control" id="name" >
   
         </div>
         <div class="form-group">
             <label for="complete">Name</label>
-            <input type='text' id="complete" class="form-control" required>
+            <input type='text' id="complete" class="form-control" >
   
         </div>
         <div class="form-group">
   
             <label for="quote">Quote</label>
-            <textarea class="form-control" id="description" rows="4" required></textarea>
-  
+            <textarea class="form-control" id="description" rows="4" ></textarea>
         </div>
-        <button class="btn btn-success">POST QUOTE</button>
+        <button type="submit"  class="btn btn-success">POST QUOTE</button>
+        <button type="submit" click()="addQuote(userquote.value, username.value,userauthor.value,usersubmit.value)" class="btn btn-success">POST QUOTE</button>
     </form>
   </div>

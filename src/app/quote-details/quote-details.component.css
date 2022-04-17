@@ -1,16 +1,40 @@
 .quote{
     display: flex;
-    margin: 4px 5px;
+    position: relative;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: 5px;
+    justify-content: center;
 }
 
 .quote, .fa.fa-thumbs-up i a{
-    font-size: 18px;
-    color: green;
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 15px;
+    margin: 10px 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.quote, .fa.fa-thumbs-up i a:active{
+    color: #004eff;
+    transform: scale(1.2);
 }
 .fa.fa-thumbs-up {
     margin-right: 20px;
 }
 
+input{
+    width: 50px;
+    border: none;
+    background: none;
+    color: #919191;
+    font-size: 30px;
+    margin: 0 10px;
+    pointer-events: none;
+}
 .fa.fa-thumbs-down i a{
     font-size: 18px;
     color: red;
@@ -19,6 +43,7 @@
 .card-text{
     font-size: 18px;
     font-weight: 600;
+    text-align: center;
 }
 
 .card-body{
@@ -32,3 +57,21 @@
     text-align: center;
     align-items: center;
 }
+
+.card, .bg-success{
+    width: 50%;
+    height: 30%;
+}
+
+.btn-success{
+    margin-left: 10px;
+}
+
+/* .container{
+    border: 3px solid #a58989;
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+} */
