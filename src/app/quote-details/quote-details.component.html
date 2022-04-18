@@ -7,10 +7,10 @@
         <p class="card-text">Better three hours too soon than a minute too late</p>
       </div>
       <div class="quote">
-          <a href=""><i class="fa fa-thumbs-up"></i></a><br>
+          <a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a><br>
           <input type="number" id="input1" value="0" name=""><br>
-          <a href=""><i class="fa fa-thumbs-down"></i></a>
-          <input type="number" id="input1" value="0" name=""><br>
+          <a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>
+          <input type="number" id="input2" value="0" name=""><br>
     </div>
     <br><br>
     <button class="btn-success">show details</button>
@@ -20,10 +20,10 @@
         <p class="card-text">Time is the most valuable thing a man can spend</p>
       </div>
       <div class="quote">
-        <a href=""><i class="fa fa-thumbs-up"></i></a>
+        <a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a>
         <input type="number" id="input1" value="0" name=""><br>
-        <a href=""><i class="fa fa-thumbs-down"></i></a>
-        <input type="number" id="input1" value="0" name=""><br>
+        <a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>
+        <input type="number" id="input2" value="0" name=""><br>
   </div>
   <button class="btn-success">show details</button>
     </div>
@@ -32,10 +32,10 @@
         <p class="card-text">Time is the wisest counsellor of all</p>
       </div>
       <div class="quote">
-        <a href=""><i class="fa fa-thumbs-up"></i></a><br>
+        <a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a><br>
         <input type="number" id="input1" value="0" name=""><br>
-        <a href=""><i class="fa fa-thumbs-down"></i></a>
-        <input type="number" id="input1" value="0" name=""><br>
+        <a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>
+        <input type="number" id="input2" value="0" name=""><br>
   </div>
   <button class="btn-success">show details</button>
     </div>
@@ -48,5 +48,16 @@
         <a href=""><i class="fa fa-thumbs-down">downvote</i>0</a>
   <!-- </div> -->
   <!-- <button class="btn-success">show details</button>
-    </div> --> -->
+    </div> --> 
   </div>
+
+  <script type="text/javascript">
+    let upvote = document.querySelector('#upvote');
+    let downvote = document.querySelector('#downvote');
+    let input1 = document.querySelector('#input1');
+    let input2 = document.querySelector('#input2');
+
+    upvote.addEventListener('click', ()=>{
+      input1.value = parseInt(input1.value) + 1;
+    })
+  </script>
