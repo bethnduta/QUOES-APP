@@ -10,7 +10,7 @@
     <p class="user">
       Posted
       <span class="elapsed">{{
-        getTimeEapsed(singleQuote.timeElapsed) | timeConverter
+        getTimeEapsed(singleQuote.timeElapsed) | DateCountPipe
       }}</span>
       {{ singleQuote.timeSuffix }}
       <span class="username"> {{ singleQuote.username }}</span>
