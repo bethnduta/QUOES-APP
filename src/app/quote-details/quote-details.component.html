@@ -7,10 +7,10 @@
         <p class="card-text">Better three hours too soon than a minute too late</p>
       </div>
       <div class="quote">
-          <a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a><br>
-          <input type="number" id="input1" value="0" name=""><br>
-          <a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>
-          <input type="number" id="input2" value="0" name=""><br>
+         <ul>
+           <li><a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a>{{quote.upvote}}</li>
+           <li><a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>{{quote.downvote}}</li>
+         </ul>
     </div>
     <br><br>
     <button class="btn-success">show details</button>
@@ -20,9 +20,9 @@
         <p class="card-text">Time is the most valuable thing a man can spend</p>
       </div>
       <div class="quote">
-        <a href="" id="upvote"><i class="fa fa-thumbs-up"></i></a>
+        <a href="upVote()" id="upvote" ><i class="fa fa-thumbs-up"></i></a>
         <input type="number" id="input1" value="0" name=""><br>
-        <a href="" id="downvote"><i class="fa fa-thumbs-down"></i></a>
+        <a href="downVote()" id="downvote" ><i class="fa fa-thumbs-down"></i></a>
         <input type="number" id="input2" value="0" name=""><br>
   </div>
   <button class="btn-success">show details</button>

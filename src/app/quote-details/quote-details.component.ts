@@ -9,6 +9,7 @@ import { Quote } from '../quote';
 export class QuoteDetailsComponent implements OnInit {
   @Input() singleQuote!: Quote;
   @Output() quoteDelete = new EventEmitter<boolean>();
+  quote: any;
 
   constructor() {}
 
@@ -16,6 +17,7 @@ export class QuoteDetailsComponent implements OnInit {
     this.quoteDelete.emit(value);
   }
 
+  
   // getTimeEapsed(value: any) {
   //   let currentTime: any = new Date();
   //   let elapsedTime: any = currentTime - value;
