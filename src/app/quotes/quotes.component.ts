@@ -19,9 +19,9 @@ export class QuotesComponent implements OnInit {
     quote.id = quoteLength+1;
     this.quotes.push(quote)
   }
-    quoteDelete(complete:boolean){
-    this.isComplete.emit(complete);
-  }
+  //   quoteDelete(complete:boolean){
+  //   this.isComplete.emit(complete);
+  // }
   constructor() { }
 
   ngOnInit(): void {
