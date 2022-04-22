@@ -14,6 +14,7 @@ export class QuotesComponent implements OnInit {
     new Quote(4, 'Time is money', 'Ian Sang', 'beth nduta', 0, 0),
     new Quote(5, 'Time is money', 'Ian Sang', 'beth nduta',0,0),
   ];
+  isComplete: any;
   addNewQuote(quote:Quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;
